@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+/*header*/
+.header{
+    background-color: black;
+    color: aliceblue;
+    padding: 15px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav{
+ display: flex;
+ align-items: center;
+ gap: 15px;
+
+}
+
+nav a{
+    color: rgb(229, 230, 231);
+    text-decoration: none;
+}
+.nav a:hover{
+    color: rgb(239, 245, 239);
+}
+
+.search-box{
+    display: flex;
+
+}
+.search-box input{
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-box button{
+    padding: 7px 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.hero{
+    background:linear-gradient(to right,#38bdf8,#6366f1);
+    color: #fff;
+    padding: 80px 10px;
+    text-align: center;
+
+}
+
+.hero h1{
+     font-size: 40px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px 1fr));
+    gap:20px;
+    padding: 50px 10px;
+}
+
+.card{
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: 0.3s;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.card{
+    font-size: 40px;
+    color: rgb(18, 19, 18);
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color: #0c101a;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
